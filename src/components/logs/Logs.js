@@ -33,11 +33,14 @@ const Logs = ({  log: {logs, loading }, getLogs }) => {
 };
 
 Logs.propTypes = {
-    log: PropTypes.object.isRequired
+    log: PropTypes.object.isRequired,
+    getLogs: PropTypes.func.isRequired  
 }
 
+// if we want to bring anything from app level state into component,, we bring as props
 const mapStateToProps = state => ({
-    log: state.log
+    log: state.log // agadiko log key can be anything,, state.log xai reducers/index.js vitrako key of reducer
 });
 
-export default connect(mapStateToProps, { getLogs })(Logs);
+export default connect(mapStateToProps, { getLogs })(Logs); //when we bring an action getLogs and pass as shown, then 
+//out action is now props,, so we need to destructure it in function Logs parameter.
