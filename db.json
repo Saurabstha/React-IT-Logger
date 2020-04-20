@@ -1,25 +1,25 @@
 {
   "logs": [
     {
-      "id": 1,
-      "message": "Changed network card in server 007",
+      "message": "lwal lwal lwal",
       "attention": true,
-      "tech": "Hugo",
-      "date": "2020-04-19T16:22:32.691Z"
+      "tech": "Sam %Smith",
+      "date": "2020-04-20T17:24:16.264Z",
+      "id": 1
     },
     {
       "id": 2,
-      "message": "Fixed hard drive on workstation 00244444",
-      "attention": false,
-      "tech": "John Doe",
-      "date": "2020-04-19T16:21:15.301Z"
+      "message": "testing",
+      "attention": true,
+      "tech": "Sam %Smith",
+      "date": "2020-04-20T17:25:06.994Z"
     },
     {
-      "id": 3,
-      "message": "1122 wireless down",
+      "message": "yo xai contact bata api call garya",
       "attention": false,
-      "tech": "Sara Wilson",
-      "date": "2020-04-19T16:05:22.319Z"
+      "tech": "mo %mo",
+      "date": "2020-04-20T17:38:57.970Z",
+      "id": 3
     }
   ],
   "techs": [
@@ -30,8 +30,13 @@
     },
     {
       "id": 3,
-      "firstName": "Sara",
+      "firstName": "Hugoooo",
       "lastName": "Wilson"
+    },
+    {
+      "firstName": "Saurab",
+      "lastName": "Shrestha",
+      "id": 4
     }
   ]
 }
